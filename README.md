@@ -12,7 +12,7 @@ contains("moose", "") -> true
 3. Have column B count from 10 through 1
 4. Have column C be the number 7
 5. Have columns D E F be random numbers
-### Numpy
+## Numpy
 1. Create a 2x4 array filled with random numbers
 2. Transpose this array
 3. Select the middle two elements in each column and add another dimension to the result
