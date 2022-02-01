@@ -27,4 +27,10 @@ contains("moose", "") -> true
 - Create a class with the following:
 1. init method/constructor that reads the txt file in the directory and creates a new instance variable with the data
 2. method `word_count()` that returns a list of tuples with each sentence and the number of words in it
-3. method `first_position(list_of_tuples)` that takes that list of tuples and returns a dictionary with the count of each letter found in the sentence (letter string : count int)
+```python
+def word_count() -> List[tuple(str,int)]
+```
+3. method `first_position(list_of_tuples)` that takes that list of tuples and returns a list of dictionaries with the count of each letter found in the sentence
+```python
+def first_position(sentences List[tuple(str,int)]) -> List[dict{str : int}]
+```
