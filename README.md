@@ -3,7 +3,7 @@
 - Or, you can simply download the code by clicking on the code button & Download ZIP (although we'd recommend cloning with the GitHub CLI or SSH), edit locally and click the "add file" button to upload your compeleted notebook
 
 # 1. Functions/Input
-- Write a function `contains(s1,s2)` where `s1` and `s2` are string that are inputted by the user and returns `true` if `s2` is a contiguous substring of `s1`
+- Write a function `contains(s1,s2)` where `s1` and `s2` are strings that are inputted by the user and returns `true` if `s2` is a contiguous substring of `s1`
 ```python
 contains("coward", "cow") -> true
 contains("abcdef", "acf") -> false
