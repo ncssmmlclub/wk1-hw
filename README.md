@@ -19,3 +19,7 @@ contains("moose", "") -> true
 4. Select all elements in the 0th column
 5. Print the 0th element of the last dimension
 # 3. OOP
+- Create a class with the following:
+a) init method/constructor that reads the txt file in the directory and creates a new instance variable with the data
+b) `word_count()` that returns a list of tuples with each sentence and the number of words in it
+c) `first_position(list_of_tuples)` that takes that list of tuples and returns a dictionary with the count of each letter found in the sentence (letter string : count int)
