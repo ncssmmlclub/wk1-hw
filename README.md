@@ -5,3 +5,6 @@ contains("coward", "cow") -> true
 contains("abcdef", "acf") -> false
 contains("moose", "") -> true
 ```
+# 2. NumPy/Pandas
+
+# 3. OOP
